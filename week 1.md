@@ -82,7 +82,7 @@ CMY는 기본적으로 세 가지 색을 사용하는 색체계다. 하지만 C,
 
 ![Bit_Sample](https://user-images.githubusercontent.com/90230587/134446701-04d45164-5a39-4a52-b4de-083a7ed3589a.jpeg)
 
- 
+출처 :https://blog.naver.com/dnrsystem/222466821541
 ***
 ### ALPHA
 1. *개념*
