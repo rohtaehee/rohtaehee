@@ -4,5 +4,5 @@ week 4
 -----------
 
 ### MERGE 
-### ROTOSCOPHING
+### ROTOSCOPING
 ### ROTOPAINT
