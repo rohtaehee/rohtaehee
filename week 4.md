@@ -23,11 +23,18 @@ matte
 오브젝트가 그린스크린에서 촬영되지 않았을경우 rotoscoping을 이용해 배경을 분리시키고자 함.
 
 ***- pipeline***
-1.
+1. read node 이용 - 푸티지 임포트
+2. 단축키 [O] - roto node 
+3. roto 작업 후 shuffle 노드 - properties : rbb/a 값 중 왼쪽 R과 오른쪽 알파 연결
+4. 
 
 ***- rotoscoping shortcut***
-1.
- 
+
+1. [O] : roto node
+2. [P] : rotopaint node
+3. [Z] : increase smoothness
+4. [E] : feather (cmd + E 페더삭제)
+
  
  ---
  
@@ -35,3 +42,5 @@ matte
 **roto node** : 알파의 쉐입을 만들어내는 작업을 할때 주로 사용
 
 **rotopaint node** : rgb컬러를 스탬프하는 클론작업 , 혹은 지워내는 작업을 사용할때 사용
+
+두가지 노드는 거의 유사한 노드이며 rotopaint 노드가 기능이 조금 더 많다.
