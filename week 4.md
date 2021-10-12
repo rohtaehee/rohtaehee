@@ -4,7 +4,11 @@ week 4
 -----------
 
 ### MERGE 
+
+<img width="468" alt="스크린샷 2021-10-12 오후 4 34 09" src="https://user-images.githubusercontent.com/90230587/136912007-d908b7ac-a63a-40cd-971e-1f2a897519f2.png">
+
 over
+
 matte
 
 ---
@@ -20,6 +24,7 @@ matte
 
 ***- pipeline***
 1.
+
 ***- rotoscoping shortcut***
 1.
  
@@ -28,4 +33,5 @@ matte
  
 ### ROTOPAINT
 **roto node** : 알파의 쉐입을 만들어내는 작업을 할때 주로 사용
+
 **rotopaint node** : rgb컬러를 스탬프하는 클론작업 , 혹은 지워내는 작업을 사용할때 사용
