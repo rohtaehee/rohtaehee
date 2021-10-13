@@ -30,9 +30,15 @@ matte
 
 ***- pipeline***
 1. read node 이용 - 푸티지 임포트
-2. 단축키 [O] - roto node 
-3. roto 작업 후 shuffle 노드 - properties : rbb/a 값 중 왼쪽 R과 오른쪽 알파 연결
-4. 
+2. 단축키 [O] - roto node (팁 : 루미넌스 값 이용하여 쉐입이 배경과 더 잘 분리되어 보이게 만들 수 있음.)
+3. roto 작업 후 shuffle 노드 - properties : rbb/a 값 중 왼쪽 알파와 오른쪽 R값 연결
+4. 보통 dpx로 추출. dpx란 vfx업계에서 표준으로 사용하는 rgb값을 가진 파일. 추출시 반드시 rgb데이터로 추출해야 에러가 없음.
+5. 반드시 파일명.####.dpx 형식으로 저장해야함 (####란? - 추출할 프레임의 범위)
+
+**내가 dpx를 받았을땐?**
+1.원본 플레이트 파일(B)과 dpx파일(A) copy 노드 붙임.
+2. copy 노드 properties에서 copy channel 세팅을 rgba.red to rgba alpha로 바꿈
+3. premult 노드와 merge노드 이용하여 합성
 
 ***- rotoscoping shortcut***
 
