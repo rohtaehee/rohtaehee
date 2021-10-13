@@ -7,10 +7,13 @@ week 4
 
 <img width="468" alt="스크린샷 2021-10-12 오후 4 34 09" src="https://user-images.githubusercontent.com/90230587/136912007-d908b7ac-a63a-40cd-971e-1f2a897519f2.png">
 
-A : 
-over
+A: Input A
 
-matte
+a: alpha of A
+
+B: Input B
+
+b: alpha of B
 
 ---
 
@@ -20,7 +23,7 @@ matte
 
 > 출처 : https://terms.naver.com/entry.naver?docId=863220&cid=42346&categoryId=42346
 
-오브젝트와 배경을 합성할때 , 오브젝트가 촬영된 원래의 배경을 분리 시켜야함.
+오브젝트와 배경을 합성할때 , 오브젝트가 촬영된 원래의 배경을 분리 시켜야함. 
 오브젝트가 그린스크린에서 촬영되지 않았을경우 rotoscoping을 이용해 배경을 분리시키고자 함.
 
 오브젝트를 한 개의 베지어로 따면 생기는 이슈 - 오브젝트가 움직이거나 시점이 바뀔때 대처하기 어려움.
@@ -29,6 +32,7 @@ matte
 
 
 ***- pipeline***
+
 1. read node 이용 - 푸티지 임포트
 2. 단축키 [O] - roto node (팁 : 루미넌스 값 이용하여 쉐입이 배경과 더 잘 분리되어 보이게 만들 수 있음.)
 3. roto 작업 후 shuffle 노드 - properties : rbb/a 값 중 왼쪽 알파와 오른쪽 R값 연결
@@ -36,6 +40,7 @@ matte
 5. 반드시 파일명.####.dpx 형식으로 저장해야함 (####란? - 추출할 프레임의 범위)
 
 **내가 dpx를 받았을땐?**
+
 1.원본 플레이트 파일(B)과 dpx파일(A) copy 노드 붙임.
 2. copy 노드 properties에서 copy channel 세팅을 rgba.red to rgba alpha로 바꿈
 3. premult 노드와 merge노드 이용하여 합성
