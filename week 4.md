@@ -41,8 +41,10 @@ b: alpha of B
 
 **내가 dpx를 받았을땐?**
 
-1.원본 플레이트 파일(B)과 dpx파일(A) copy 노드 붙임.
+1. 원본 플레이트 파일(B)과 dpx파일(A) copy 노드 붙임.
+
 2. copy 노드 properties에서 copy channel 세팅을 rgba.red to rgba alpha로 바꿈
+
 3. premult 노드와 merge노드 이용하여 합성
 
 ***- rotoscoping shortcut***
