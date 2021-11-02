@@ -22,3 +22,7 @@ week 5
 > 출처 : https://www.youtube.com/watch?v=Bc7wWOmEGGY
 
 해당 영화에선 단순히 마술 기법이 아니라 사실적인 세계를 만들기 위해 사용.
+
+----------
+
+***크로마키에서 green을 사용하는 이유?***
