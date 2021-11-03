@@ -15,6 +15,10 @@ B: Input B
 
 b: alpha of B
 
+1: alpha
+
+0: alpha x
+
 ---
 
 ### ROTOSCOPING
