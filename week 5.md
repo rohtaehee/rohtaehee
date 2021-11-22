@@ -52,6 +52,22 @@ week 5
 **결국은 크로마키나 로토나 매트를 추출하여 알파채널을 만들기 위함이다.**
 
 ---------------
-
 ***CHROMA KEY LIGHTING***
+
+![How-to-Light-a-Green-Screen-With-Two-Lights-StudioBinder](https://user-images.githubusercontent.com/90230587/142798131-61594362-487f-43f1-8a06-89b4bd05b762.jpeg)
+
+>출처 : https://www.studiobinder.com/blog/green-screen-lighting-setup-techniques/
+
+------------
+***CHROMA KEY NODES***
+
+*KEING*
+
+- Utility
+
+keyer (luminance key) , HueKeyer , Difference
+
+- (B,G) Screen
+
+Keylight , Ulitmatte , primatte . IBKGizmo , Chromakeyer
 
