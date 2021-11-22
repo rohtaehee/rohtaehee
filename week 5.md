@@ -29,10 +29,29 @@ week 5
 
 > 출처 : https://www.youtube.com/watch?v=Bc7wWOmEGGY
 
-해당 영화에선 단순히 마술 기법이 아니라 사실적인 세계를 만들기 위해 사용. 이후 할리우드에서 vfx기술이 발전하게 됨.
+해당 영화에선 단순히 마술 기법이 아니라 사실적인 세계를 만들기 위해 사용. 움직이는 기차 컷에서 창문 밖을 보면 합성된 배경이 적용되었음. 이중노출과 매트를 사용.
+
+![Williams-Process-600x262](https://user-images.githubusercontent.com/90230587/142374708-9c56ac00-73ff-44eb-9ec8-4a8a240b2032.jpeg)
+
+1918년 frank williams가 영화 'sunrise'에 합성을 사용하기 위해 개발. 검은색 배경에서 촬영 후 높은 대비의 네거티브로 복사.
+
+이후 파란색 크로마키 , 노란색 크로마키로 발전 후 90년대 후반 디지털 필름 후처리가 시작되며 그린 크로마키가 자리를 잡음.
 
 ----------
 
 ***크로마키에서 green을 사용하는 이유?***
 
-사실 어떤 색상으로 하던 큰 상관은 없으나, 
+
+![253E363F522E7C5724](https://user-images.githubusercontent.com/90230587/142792788-1623848a-653c-4bd9-a26d-e0afefa6f1b0.jpeg)
+![272C1640522E7C3C2F](https://user-images.githubusercontent.com/90230587/142792792-93b458e2-feeb-4bcc-a95f-1333687a4809.png)
+
+> 출처 : http://www.unc.edu/~rjean/demosaicing/demosaicing.pdf
+
+디지털 시대로 넘어오며 픽셀 단위에서 Bayer pattern을 사용하게 됨. bayer pattern이란 한 픽셀을 네개의 구역으로 나눈 것.
+네개 중 두개가 그린이고 나머지 각각 하나씩을 레드와 블루가 가지고 있기때문에 초록색 크로마키를 사용하는 것이 보편화되고 효율적이기때문.
+**결국은 크로마키나 로토나 매트를 추출하여 알파채널을 만들기 위함이다.**
+
+---------------
+
+***CHROMA KEY LIGHTING***
+
