@@ -52,7 +52,7 @@ range :
 
 ***- (B,G) Screen ***
 
-Keylight :
+- Keylight :
 
 <img width="589" alt="스크린샷 2021-11-23 오후 5 00 20" src="https://user-images.githubusercontent.com/90230587/142988433-8847e22f-c524-4651-96f9-06cca7665833.png">
 
@@ -67,13 +67,21 @@ screen colour 설정 컬러피커 선택 후 command 클릭 , command + shift �
       InM : 인사이드 마스크. 로토 등으로 마스킹 하면 매트로 간주. 그 부분을 제외하고 나머지 부분에서 키라이트 적용
       outM : 아웃사이드 마스크. 로토 등으로 마스킹 하면 매트로 간주. 그부분만 키라이트 적용.
 
-primatte : 
+- primatte : 
 
-Ulitmatte :
+fg input -  그린을 제외한 플레이트
+operation -
 
-IBKGizmo :
+       1. smart select BG color - 컬러피커 사용
+       2. clean BG noise - 백그라운드 노이즈들 커맨드 클릭해서 백그라운드 노이즈 삭제 (알파가 먹고 들어가는 것 조심)
+       3. clean FG noise - 포그라운드 노이즈를 커맨드 클릭하여 알파가 먹고 들어간 곳 재생.
+       4. spill 
 
-Chromakeyer : 
+- IBKGizmo :
+
+- Ulitmatte 
+
+- Chromakeyer
 
 -----
 
