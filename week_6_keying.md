@@ -9,17 +9,54 @@ week 6
 
 *KEING*
 
-- Utility
+***- Utility***
 
-keyer (luminance key) : 
+- keyer (luminance key) : 루미넌스를 이용해 키 , 알파로 만드는 것. (루미넌스 키: rgb값을 그 자체를 알파 채널에 넣겠다.)
 
-HueKeyer : 
+알파가 없는 플레이트에 keyer(luminance key)노드를 붙이면 hue 와 value 값을 이용해 루미넌스 값을 계산 후, 루미넌스 값을 알파값으로 사용.
 
-Difference : 
+operation :
+ 
+<img width="133" alt="스크린샷 2021-11-23 오후 3 51 48" src="https://user-images.githubusercontent.com/90230587/142981752-70147ed2-215b-479b-8845-c60cc7b63c11.png">
 
-- (B,G) Screen
+red keyer를 사용하면 red채널의 값이 알파가 되고, green keyer를 사용하면 green채널의 값이 알파가 됨.
+
+<img width="592" alt="스크린샷 2021-11-23 오후 3 51 36" src="https://user-images.githubusercontent.com/90230587/142981712-20be1e81-3c53-4a51-9ad6-18436c2772da.png">
+
+range : 
+        
+        A = 키잉을 무슨 값으로 시작할지.(블랙 = 0 화이트 = 1), A 슬라이더를 만져도 화이트 값(밝은 부분)은 바뀌지 않음.
+
+        B , C = 키잉 할 부분의 거리.
+
+        D = 키잉을 무슨 값으로 끝낼지.
+
+- HueKeyer :
+
+ <img width="594" alt="스크린샷 2021-11-23 오후 3 55 41" src="https://user-images.githubusercontent.com/90230587/142982077-bab893b2-bb60-49e5-b89b-cc7c6f6ea950.png">
+
+그래프에 해당하는 색상 값이 알파 값으로 전환.
+실제 크로마키 작업보다 , 색이 조금 다른 부분만 휴 키어로 뺄 수 있기 때문에 유용함.
+
+- Difference : 
+
+<img width="591" alt="스크린샷 2021-11-23 오후 4 37 50" src="https://user-images.githubusercontent.com/90230587/142986137-80d6b6b5-2380-4a65-be31-bccbb722577b.png">
+
+프레임과 프레임 사이의 차이만큼을 알파로 바꿈. 키어로 사용한다기보다, 둘간의 차이를 확인하기 위해 사용 (컬러그레이딩 시 디테일)
+
+offset : 아웃풋의 각 픽셀로부터 값을 빼냄 (디폴트 : 0)
+
+gain : 흰색인 픽셀들을 게인 값으로 고정 시킴 (디폴트 : 1)
+
+------
+
+***- (B,G) Screen ***
 
 Keylight :
+
+<img width="589" alt="스크린샷 2021-11-23 오후 5 00 20" src="https://user-images.githubusercontent.com/90230587/142988433-8847e22f-c524-4651-96f9-06cca7665833.png">
+
+screen colour 설정 컬러피커 선택 후 command 클릭 , command + shift 클릭으로 범위 지정 (영역의 평균 값) -> 스크린 부분의 알파가 0으로 빠짐 
 
 Ulitmatte :
 
@@ -28,3 +65,13 @@ primatte :
 IBKGizmo :
 
 Chromakeyer : 
+
+-----
+
+***- Noise reduction***
+
+Denoise node : 영역을 설정하면 누크에서 노이즈 계산 후 노이즈가 제거됨. 디테일 뭉게질수도 있으니 유의.
+
+neat video plug in : 학생용 버전 x 구매하려면 ofx hosts 버전 구매.
+
+
