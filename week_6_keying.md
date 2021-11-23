@@ -116,4 +116,4 @@ neat video plug in : 학생용 버전 x 구매하려면 ofx hosts 버전 구매.
 
 - 하드키는 안쪽
 - 소프트키는 바깥쪽
-- channel merge 
+- channel merge  (alpha U alpha)
