@@ -11,8 +11,20 @@ week 6
 
 - Utility
 
-keyer (luminance key) , HueKeyer , Difference
+keyer (luminance key) : 
+
+HueKeyer : 
+
+Difference : 
 
 - (B,G) Screen
 
-Keylight , Ulitmatte , primatte . IBKGizmo , Chromakeyer
+Keylight :
+
+Ulitmatte :
+
+primatte : 
+
+IBKGizmo :
+
+Chromakeyer : 
