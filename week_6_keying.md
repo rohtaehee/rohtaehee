@@ -112,6 +112,8 @@ neat video plug in : 학생용 버전 x 구매하려면 ofx hosts 버전 구매.
 4. copy node (A to keying node)
 5. premult
 
+-------
+
 ***- soft key & hard key***
 
 - 하드키는 안쪽
