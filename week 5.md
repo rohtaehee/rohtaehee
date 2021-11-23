@@ -58,4 +58,17 @@ week 5
 
 >출처 : https://www.studiobinder.com/blog/green-screen-lighting-setup-techniques/
 
+<img width="1920" alt="스크린샷 2021-11-23 오후 3 10 47" src="https://user-images.githubusercontent.com/90230587/142978252-d327975b-6acd-437f-af4b-8d119c583ee8.png">
+
+>출처 : https://www.youtube.com/watch?v=xGK5o-OhPTg
+
+최소 세개의 조명이 필요, 1개는 키라이트 2개는 스크린 라이트
+네개 이상의 조명을 사용한다면 더 정확한 결과
+조명은 부드럽고, 클수록 좋음
+샤프한 조명을 사용해야한다면 소프트 박스를 댈 것.
+배우와 스크린의 거리는 최대한 멀게. (가까이 있다면 크로마키의 초록색이 배우에게 묻기 때문에)
+플레이트에서 조명이 어디에 들어오는지 생각할 것.
+
+
+
 ------------
