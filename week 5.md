@@ -59,15 +59,3 @@ week 5
 >출처 : https://www.studiobinder.com/blog/green-screen-lighting-setup-techniques/
 
 ------------
-***CHROMA KEY NODES***
-
-*KEING*
-
-- Utility
-
-keyer (luminance key) , HueKeyer , Difference
-
-- (B,G) Screen
-
-Keylight , Ulitmatte , primatte . IBKGizmo , Chromakeyer
-
