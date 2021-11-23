@@ -52,7 +52,7 @@ range :
 
 ***- (B,G) Screen ***
 
-- Keylight :
+- **Keylight :
 
 <img width="589" alt="스크린샷 2021-11-23 오후 5 00 20" src="https://user-images.githubusercontent.com/90230587/142988433-8847e22f-c524-4651-96f9-06cca7665833.png">
 
@@ -67,7 +67,7 @@ screen colour 설정 컬러피커 선택 후 command 클릭 , command + shift �
       InM : 인사이드 마스크. 로토 등으로 마스킹 하면 매트로 간주. 그 부분을 제외하고 나머지 부분에서 키라이트 적용
       outM : 아웃사이드 마스크. 로토 등으로 마스킹 하면 매트로 간주. 그부분만 키라이트 적용.
 
-- primatte : 
+- **primatte : 
 
 fg input -  그린을 제외한 플레이트
 operation -
@@ -77,9 +77,20 @@ operation -
        3. clean FG noise - 포그라운드 노이즈를 커맨드 클릭하여 알파가 먹고 들어간 곳 재생.
        4. spill 
 
-- IBKGizmo :
+- **IBKGizmo : Image based keing
 
-- Ulitmatte 
+카메라 무빙이 디지털로 제어되는 시스템. 액터가 있는 플레이트와 없는 플레이트 둘다 촬영.
+
+액터가 있는 플레이트와 없는 플레이트에서 이미지 차이를 이용해 알파 값을 만듦.
+
+          bg input : plate 
+          cf input : ibkcolour
+
+          ibkcolour : screen type green(그린이 아닌 영역들 블랙으로 빠짐) - erode 값과 patchblack 값 이용하여
+          액터부분 블랙으로 바꿈 - 남아있는 디테일한 알파값은 매트로
+           
+
+- **Ulitmatte : primatte과 유사 , 탭으로 기능들이 들어가 있음.
 
 - Chromakeyer
 
@@ -93,11 +104,16 @@ neat video plug in : 학생용 버전 x 구매하려면 ofx hosts 버전 구매.
 
 ------
 
-***- pipeline***
+***- key mix pipeline***
 
 1. noise reduction
 2. keying
-3. copy node (A to keying node)
-4. premult
-5. 
+3. keymix (A input,B input = keying , mask = roto, etc)
+4. copy node (A to keying node)
+5. premult
 
+***- soft key & hard key ***
+
+- 하드키는 안쪽
+- 소프트키는 바깥쪽
+- channel merge 
