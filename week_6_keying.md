@@ -112,8 +112,19 @@ neat video plug in : 학생용 버전 x 구매하려면 ofx hosts 버전 구매.
 4. copy node (A to keying node)
 5. premult
 
-***- soft key & hard key
+***- soft key & hard key***
 
 - 하드키는 안쪽
 - 소프트키는 바깥쪽
-- channel merge  (alpha U alpha)
+- ChannelMerge (alpha U alpha) node operation union 체크 : 소프트키, 하드키 합침.
+- 하드키가 소프트키보다 범위가 넓을때는 erode (filter) node size(디폴트 0) 이용.
+- 외곽부분 앨리어싱 심해지기때문에 blur node 이용
+- 원본 플레이트와 copy node
+- hue correct node(그래프에 command +alt click)로 despill 
+
+----------
+
+***- despill***
+
+- despill madness gizmo : https://www.nukepedia.com/gizmos/keyer/despillmadness/
+- color smear gizmo : http://www.nukepedia.com/written-tutorials/colour-smear-for-nuke
