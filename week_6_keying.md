@@ -131,3 +131,8 @@ neat video plug in : 학생용 버전 x 구매하려면 ofx hosts 버전 구매.
 - despill madness gizmo : https://www.nukepedia.com/gizmos/keyer/despillmadness/
 - color smear gizmo : http://www.nukepedia.com/written-tutorials/colour-smear-for-nuke
 - pxfkillspill gizmo : http://www.pixelfudger.com/
+
+---------
+
+***- grade***
+
