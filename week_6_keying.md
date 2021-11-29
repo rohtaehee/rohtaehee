@@ -136,3 +136,20 @@ neat video plug in : 학생용 버전 x 구매하려면 ofx hosts 버전 구매.
 
 ***- grade***
 
+- blackpoint : 블랙의 수치 
+- whitepoint : 화이트의 수치
+- lift : 한점을 찍고 (ex.white) 그 부분을 제외한 나머지가 움직임
+- gain : 한 색깔을 지정하고 그 색을 화이트를 기준으로 곱하는 것.
+- multyply : rgb 픽셀의 수치를 곱해주는 것.
+- offset : 전체적인 데이터가 다 움직임
+- gamma : 블랙포인트와 화이트포인트는 고정 나머지가 움직임
+- whitepoint : 화이트의 수치ㅈ직고 
+- whitepoint : 화이트의 수치
+ 
+-----------
+
+***- color correct***
+
+- saturation : H/S/V 값에서 S값 조작.
+- 나머지는 grade와 동일
+- range 탭 그래프 이용하여 shadow , midtone , highlights 영역 지정.
