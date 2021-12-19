@@ -50,7 +50,7 @@ range :
 
 ------
 
-***- (B,G) Screen ***
+***- (B,G) Screen***
 
 - **Keylight :
 
@@ -67,7 +67,7 @@ screen colour 설정 컬러피커 선택 후 command 클릭 , command + shift �
       InM : 인사이드 마스크. 로토 등으로 마스킹 하면 매트로 간주. 그 부분을 제외하고 나머지 부분에서 키라이트 적용
       outM : 아웃사이드 마스크. 로토 등으로 마스킹 하면 매트로 간주. 그부분만 키라이트 적용.
 
-- **primatte : 
+**- primatte** :  
 
 fg input -  그린을 제외한 플레이트
 operation -
@@ -77,7 +77,7 @@ operation -
        3. clean FG noise - 포그라운드 노이즈를 커맨드 클릭하여 알파가 먹고 들어간 곳 재생.
        4. spill 
 
-- **IBKGizmo : Image based keing
+**- IBKGizmo** : Image based keing
 
 카메라 무빙이 디지털로 제어되는 시스템. 액터가 있는 플레이트와 없는 플레이트 둘다 촬영.
 
@@ -90,7 +90,7 @@ operation -
           액터부분 블랙으로 바꿈 - 남아있는 디테일한 알파값은 매트로
            
 
-- **Ulitmatte : primatte과 유사 , 탭으로 기능들이 들어가 있음.
+**- Ulitmatte** : primatte과 유사 , 탭으로 기능들이 들어가 있음.
 
 - Chromakeyer
 
