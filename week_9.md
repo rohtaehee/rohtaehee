@@ -85,7 +85,7 @@ FG, MG , BG를 어떻게 배치할 것인가.
 
 
 ----------------
-research 
+**research** 
 
 
 영화로보는 색보정 <매트릭스 편> 
@@ -94,7 +94,9 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=laizenti&log
 
 
 컬러파레트로 본 영화
+
 https://hub.zum.com/theartist/4697
 
 색으로 구성한 스토리텔링 <그랜드부다페스트호텔>
+
 http://www.danbinews.com/news/articleView.html?idxno=8832
